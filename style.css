@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: blanchedalmond;
+    background-color: #ffebcd;
     padding: 10px 20px;
     position: relative;
 }
@@ -21,4 +21,21 @@ nav {
     width: 30px;
     height: 25px;
     justify-content: space-between;
+}
+
+.hamburguer span {
+    height: 4px;
+    background-color: #5f9ea0;
+    border-radius: 2px;
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul.menu li a {
+    color: #008b8b;
+    text-decoration: none;
 }
