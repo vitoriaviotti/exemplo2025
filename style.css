@@ -6,4 +6,19 @@
 
 nav {
     background-color: blanchedalmond;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
 }
