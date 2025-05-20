@@ -90,12 +90,14 @@ nav {
 .hamburguer span {
     height: 4px;
     background-color: #5f9ea0;
+
     border-radius: 2px;
 }
 
 ul.menu {
     list-style: none;
     display: flex;
+
     gap: 20px;
 }
 
@@ -113,9 +115,9 @@ h1 {
 
 /*responsivo cabeçalho*/
 @media (max-width:768px){
-    .hamburguer {
+.hamburguer {
         display: flex;
-    }
+}
 
  ul.menu{
     display: none;
@@ -125,11 +127,16 @@ h1 {
     top: 60px;
     left: 0;
     width: 100%;
+   
 }  
 
 .menu-toggle:checked+.hamburguer+ul.menu {
     display: flex;
 }
-    
 }
 
+@media screen and (min-width: 768px){
+    .principal {
+        background-image: url(campocidade.png);
+    }
+}
