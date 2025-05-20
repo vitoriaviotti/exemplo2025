@@ -36,7 +36,38 @@ body {
     border: 1px solid var(--branco);
     border-radius: 5px;
 }
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    color: var(--branco);
+    text-align: center;
+
+    background-color: var(--preto);
+
+    padding-top: 12.25rem;
+    padding-bottom: 12.5rem;
+}
+
+.principal__titulo{
+    font-family:  var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.principal__texto{
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+principal__botao{
+    width: 100%;
+}
 nav {
     background-color: #ffebcd;
     padding: 10px 20px;
